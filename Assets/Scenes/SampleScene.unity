@@ -303,8 +303,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 686cd0454ee20c6449fef7b7d74a6258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mousePosScreen: {x: 0, y: 0, z: 0}
-  mousePosWorld: {x: 0, y: 0, z: 0}
+  thisTransform: {fileID: 801634221}
+  playerPos: {x: 0, y: 0, z: 0}
+  mousePos: {x: 0, y: 0, z: 0}
+  worldPos: {x: 0, y: 0, z: 0}
+  speed: 0.1
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
